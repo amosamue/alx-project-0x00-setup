@@ -15,10 +15,10 @@ const Card: React.FC = () => {
         alt="house image"
       />
       <div className="p-2 flex gap-2 mt-2">
-        <Pill />
-        <Pill />
-        <Pill />
-      </div>
+  <Pill title="Top Villa" />
+  <Pill title="Self CheckIn" />
+  <Pill title="Free Reschedule" />
+</div>
       <div className="flex items-center justify-between">
         <div>
           <h3 className=" font-semibold text-[22px]">
